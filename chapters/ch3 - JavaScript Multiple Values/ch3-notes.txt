@@ -1,0 +1,30 @@
+Array is a type of "Object" = {
+
+    declaring an Array methods:
+        <var-type> arrayName = New Array(<elements>/<number of elements>)
+        <var-type> arrayName = [<elements>]
+
+        this will create an array and with 10 empty elements with assign value at the end.
+            let newArr[10] = <x>
+            -> [<9xEmpty>,<x>]
+    
+    access to elements:
+        . arrayName[<index number>]
+        . out of range index will return -1
+    
+    manipulating Arrays:
+        . Arrays can have <-int> index by assignning    -> myArray[-2] = <element>
+        . Arrays have method to manipulating values:
+            .lengt
+            .push()
+            .pop()
+            .splice()
+            .shift()
+            .unshift()
+            .concate()
+            .more methods at {https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array}
+}
+Objects : a complex data structure that can contain
+more than one value {
+
+}
